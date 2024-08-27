@@ -2,6 +2,7 @@
 
 name: Build check target specified in labels
 on:
+  workflow_dispatch:
   pull_request:
     types:
       - labeled
