@@ -1,6 +1,7 @@
 name: Build all core packages
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - '.github/workflows/packages.yml'
